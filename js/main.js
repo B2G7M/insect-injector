@@ -1,5 +1,34 @@
 // Create your variable here, name it `insects`
-var insects = 0;
+var insects = [
+  {
+    name: 'Ant Nest Beetle',
+    image: '<img src="images/ant-nest-beetle.jpg">',
+    family: 'Carabidae',
+    size: [6, 20],
+    eats: 'insects',
+  },
+  {
+    name: 'Dung Beetle',
+    image: '<img src="images/dung-beetle.jpg">',
+    family: 'Scarabidae',
+    size: [20, 30],
+    eats: 'dung',
+  },
+  {
+    name: 'Ant Nest Beetle',
+    image: '<img src="images/stag-beetle.jpg">',
+    family: 'Lucanidae',
+    size: [5, 120],
+    eats: 'plants',
+  },
+  {
+    name: 'Ant Nest Beetle',
+    image: '<img src="images/tortoise-beetle.jpg">',
+    family: 'Cassidinae',
+    size: [1, 18],
+    eats: 'plants',
+  }
+];
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
@@ -49,3 +78,4 @@ writeInsects(insects);
 // ##########################################################
 // END DO NOT CHANGE ZONE
 // ##########################################################
+
